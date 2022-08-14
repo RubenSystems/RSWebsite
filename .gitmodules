@@ -1,0 +1,3 @@
+[submodule "RSwCF"]
+	path = RSwCF
+	url = https://github.com/RubenSystems/RSwCF.git
