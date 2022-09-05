@@ -35,10 +35,8 @@ rswcf::View * background_text_content(const std::string & uid, const std::string
 		->attr({"class", uid + "-p"})
 	
 	})
-	->style({"width", "50%"})
-	->style({"padding", "64px"})
-	
-	->attr({"class", "main-title big-no-flex"});
+	->style({"padding", "64px"});
+
 }
 
 #endif /* BackgroundTextContent_h */

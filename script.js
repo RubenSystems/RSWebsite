@@ -54,11 +54,9 @@ new ScrollMagic.Scene({triggerElement: "body", duration: duration, offset: baseO
  */
 
 var video_element = document.getElementsByClassName("home-video")[0];
-console.log(video_element)
 new ScrollMagic.Scene({triggerElement: "body", duration: duration, offset: baseOffset})
 	.addTo(controller)
 	.on("progress", function (e) {
-		console.log((e.progress.toFixed(3) / video_element.duration) * video_element.duration);
 		video_element.currentTime = e.progress.toFixed(3) * 10
 	});
 

@@ -51,7 +51,7 @@ rswcf::View * hero_header() {
 			
 			
 		})
-		->style({"background", "green"})
+		->style({"background", "black"})
 		->style({"display", "flex"})
 		->style({"justify-content", "center"})
 		->style({"align-items", "center"})

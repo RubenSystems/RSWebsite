@@ -15,19 +15,19 @@
 rswcf::View * headlines() {
 	return rswcf::view("div", {
 		rswcf::view("div", {
-			rswcf::view("div", {
-				rswcf::view("img")
-				->attr({"src", "https://ik.imagekit.io/arq09jvqm2s/RSWebsite/460x0w_HzNsjuf5p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661159746240"})
-				->style({"border-radius", "10px"})
-				->style({"width", "64px"})
-				->style({"margin-bottom", "16px"})
-			})
-			->style({"width", "64%"})
-			->style({"margin", "10rem auto -10rem"})
-			->attr({"class", "main-title"})
-			,
+//			rswcf::view("div", {
+//				rswcf::view("img")
+//				->attr({"src", "https://ik.imagekit.io/arq09jvqm2s/RSWebsite/460x0w_HzNsjuf5p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661159746240"})
+//				->style({"border-radius", "10px"})
+//				->style({"width", "64px"})
+//				->style({"margin-bottom", "16px"})
+//			})
+//			->style({"width", "64%"})
+//			->style({"margin", "10rem auto -10rem"})
+//			->attr({"class", "main-title"})
+//			,
 			secondary_project(
-				"Headlines Today",
+				"<img src='https://ik.imagekit.io/arq09jvqm2s/RSWebsite/460x0w_HzNsjuf5p.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661159746240' style='border-radius:10px;width:64px;margin-bottom:16px'/><br/> Headlines Today",
 				"The news, simplified",
 				"HeadlinesToday summarises the news into 10 easy-to-read articles. <br><br>It is perfect for busy people who want to quickly stay up to date with the latest news. With HeadlinesToday, you can easily browse the latest news from several news outlets around the world.<br><br><a href='https://apps.apple.com/gb/app/headlines-today/id1363257410'> Learn More > </a>"
 			)

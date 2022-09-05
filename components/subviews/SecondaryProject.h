@@ -44,9 +44,10 @@ rswcf::View * secondary_project(const std::string & name, const std::string & ti
 		->attr({"class", "main-title-contianer"})
 		
 	})
-	->style({"width", "64%"})
-	->style({"margin", "10rem auto"})
-	->attr({"class", "main-title"});
+	->style({"max-width", "1088px" })
+	->style({"padding", "0 32px"})
+	->style({"margin", "10rem auto"});
+
 }
 
 

@@ -22,9 +22,8 @@ rswcf::View * background_text(const std::string & uid, const std::string & name,
 					background_text_content(uid, name, title, description)
 				
 			})
-//			->style({"width", "64%"})
-//				->attr({"class", "full-big"})
-			->style({"margin", "10rem auto"})
+			->style({"max-width", "640px"})
+			->style({"margin", "10rem 0"})
 		})
 		->style({"background", "url('"+ image_url +"') no-repeat top"})
 		->style({"background-size", "cover !important"})
